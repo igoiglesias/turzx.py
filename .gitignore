@@ -1,0 +1,90 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+.eggs/
+build/
+dist/
+develop-eggs/
+.installed.cfg
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ===== Virtualenv =====
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# ===== Testes / Coverage =====
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.cover
+.cache
+
+# ===== Tipo / Lint =====
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.pytype/
+
+# ===== Configuração local do app =====
+# settings.json é gerado em ~/.config/big-screen-monitor/, mas se algum dia
+# alguém colocar uma cópia local de teste, não vai pra dentro do repo.
+settings.json
+*.local.json
+
+# ===== Editores / IDEs =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.spyderproject
+.spyproject
+.ropeproject
+
+# ===== SO =====
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ===== Logs / temporários =====
+*.log
+*.tmp
+*.bak
+*.orig
+*.rej
+
+# ===== Saídas de empacotamento / build local =====
+*.deb
+*.rpm
+*.pkg.tar.zst
+*.AppImage
+*.tar.gz
+debian/
+pkg/
+src/
+
+# ===== Frames de debug / capturas =====
+debug_*.png
+debug_*.jpg
+frame_*.png
+frame_*.bmp

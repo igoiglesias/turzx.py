@@ -1,0 +1,6 @@
+pillow
+psutil
+pyusb
+pyserial
+numpy
+pystray
